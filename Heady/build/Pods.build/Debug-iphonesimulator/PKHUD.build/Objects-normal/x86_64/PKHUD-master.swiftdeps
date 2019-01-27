@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "d6e3ffaa507f896a227278f178de5ba2"
+build_time: [1548597232, 80524000]
+inputs:
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/FrameView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/HUD.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUD.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDAnimating.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDAnimation.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDAssets.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDErrorView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDProgressView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDRotatingImageView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDSquareBaseView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDSuccessView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDSystemActivityIndicatorView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDTextView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUDWideBaseView.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/Window.swift": [1548579155, 0]
+  "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/WindowRootViewController.swift": [1548579155, 0]

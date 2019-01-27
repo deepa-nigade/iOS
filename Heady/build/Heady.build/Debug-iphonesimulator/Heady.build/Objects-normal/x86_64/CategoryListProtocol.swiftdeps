@@ -1,0 +1,131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoryListViewProtocol"
+- "CategoryListPresenterProtocol"
+- "CategoryListInteractorInputProtocol"
+- "CategoryListInteractorOutputProtocol"
+- "CategoryListRemoteDataManagerInputProtocol"
+- "CategoryListRemoteDataManagerOutputProtocol"
+- "CategoryListLocalDataManagerInputProtocol"
+- "CategoryListWireFrameProtocol"
+provides-nominal:
+- "5Heady24CategoryListViewProtocolP"
+- "5Heady29CategoryListPresenterProtocolP"
+- "5Heady35CategoryListInteractorInputProtocolP"
+- "5Heady36CategoryListInteractorOutputProtocolP"
+- "5Heady42CategoryListRemoteDataManagerInputProtocolP"
+- "5Heady43CategoryListRemoteDataManagerOutputProtocolP"
+- "5Heady41CategoryListLocalDataManagerInputProtocolP"
+- "5Heady29CategoryListWireFrameProtocolP"
+provides-member:
+- ["5Heady24CategoryListViewProtocolP", ""]
+- ["5Heady29CategoryListPresenterProtocolP", ""]
+- ["5Heady35CategoryListInteractorInputProtocolP", ""]
+- ["5Heady36CategoryListInteractorOutputProtocolP", ""]
+- ["5Heady42CategoryListRemoteDataManagerInputProtocolP", ""]
+- ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", ""]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", ""]
+- ["5Heady29CategoryListWireFrameProtocolP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "Category"
+- "CategoryListInteractorInputProtocol"
+- "CategoryListInteractorOutputProtocol"
+- "CategoryListLocalDataManagerInputProtocol"
+- "CategoryListPresenterProtocol"
+- "CategoryListRemoteDataManagerInputProtocol"
+- "CategoryListRemoteDataManagerOutputProtocol"
+- "CategoryListViewProtocol"
+- "CategoryListWireFrameProtocol"
+- "Int"
+- "Product"
+- "String"
+- "UIViewController"
+depends-member:
+- ["5Heady35CategoryListInteractorInputProtocolP", "CategoryListInteractorOutputProtocol"]
+- ["5Heady35CategoryListInteractorInputProtocolP", "CategoryListLocalDataManagerInputProtocol"]
+- ["5Heady35CategoryListInteractorInputProtocolP", "CategoryListRemoteDataManagerInputProtocol"]
+- ["5Heady35CategoryListInteractorInputProtocolP", "localDatamanager"]
+- ["5Heady35CategoryListInteractorInputProtocolP", "presenter"]
+- ["5Heady35CategoryListInteractorInputProtocolP", "remoteDatamanager"]
+- ["5Heady35CategoryListInteractorInputProtocolP", "retrieveCategoryList"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "Category"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "didRetrieveCategoryList"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "onError"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", "Category"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", "Int"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", "Product"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", "String"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", "retrieveCategoryList"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", "saveCategory"]
+- ["5Heady29CategoryListPresenterProtocolP", "Category"]
+- ["5Heady29CategoryListPresenterProtocolP", "CategoryListInteractorInputProtocol"]
+- ["5Heady29CategoryListPresenterProtocolP", "CategoryListViewProtocol"]
+- ["5Heady29CategoryListPresenterProtocolP", "CategoryListWireFrameProtocol"]
+- ["5Heady29CategoryListPresenterProtocolP", "interactor"]
+- ["5Heady29CategoryListPresenterProtocolP", "showCategoryDetail"]
+- ["5Heady29CategoryListPresenterProtocolP", "view"]
+- ["5Heady29CategoryListPresenterProtocolP", "viewDidLoad"]
+- ["5Heady29CategoryListPresenterProtocolP", "wireFrame"]
+- ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "CategoryListRemoteDataManagerOutputProtocol"]
+- ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "remoteRequestHandler"]
+- ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "retrieveCategoryList"]
+- ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "Category"]
+- ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "onCategoryListRecieved"]
+- ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "onError"]
+- ["5Heady24CategoryListViewProtocolP", "Category"]
+- ["5Heady24CategoryListViewProtocolP", "CategoryListPresenterProtocol"]
+- ["5Heady24CategoryListViewProtocolP", "hideLoading"]
+- ["5Heady24CategoryListViewProtocolP", "presenter"]
+- ["5Heady24CategoryListViewProtocolP", "showCategories"]
+- ["5Heady24CategoryListViewProtocolP", "showError"]
+- ["5Heady24CategoryListViewProtocolP", "showLoading"]
+- ["5Heady29CategoryListWireFrameProtocolP", "Category"]
+- ["5Heady29CategoryListWireFrameProtocolP", "CategoryListViewProtocol"]
+- ["5Heady29CategoryListWireFrameProtocolP", "UIViewController"]
+- ["5Heady29CategoryListWireFrameProtocolP", "createCategoryListModule"]
+- ["5Heady29CategoryListWireFrameProtocolP", "presentCategoryDetailScreen"]
+depends-nominal:
+- "5Heady35CategoryListInteractorInputProtocolP"
+- "5Heady36CategoryListInteractorOutputProtocolP"
+- "5Heady41CategoryListLocalDataManagerInputProtocolP"
+- "5Heady29CategoryListPresenterProtocolP"
+- "5Heady42CategoryListRemoteDataManagerInputProtocolP"
+- "5Heady43CategoryListRemoteDataManagerOutputProtocolP"
+- "5Heady24CategoryListViewProtocolP"
+- "5Heady29CategoryListWireFrameProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "57d5d9df76fcce4f401aa701c8c01707"

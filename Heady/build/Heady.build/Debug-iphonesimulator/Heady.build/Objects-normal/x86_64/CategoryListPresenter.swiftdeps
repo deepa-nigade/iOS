@@ -1,0 +1,96 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoryListPresenter"
+provides-nominal:
+- "5Heady21CategoryListPresenterC"
+provides-member:
+- ["5Heady21CategoryListPresenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Category"
+- "CategoryListInteractorInputProtocol"
+- "CategoryListInteractorOutputProtocol"
+- "CategoryListPresenter"
+- "CategoryListPresenterProtocol"
+- "CategoryListViewProtocol"
+- "CategoryListWireFrameProtocol"
+depends-member:
+- !private ["5Heady35CategoryListInteractorInputProtocolP", "retrieveCategoryList"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", ""]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "didRetrieveCategoryList"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "interactor"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "onError"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "showCategoryDetail"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "view"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "viewDidLoad"]
+- ["5Heady36CategoryListInteractorOutputProtocolP", "wireFrame"]
+- !private ["5Heady36CategoryListInteractorOutputProtocolP", "wireframe"]
+- ["5Heady21CategoryListPresenterC", "Category"]
+- ["5Heady21CategoryListPresenterC", "CategoryListInteractorInputProtocol"]
+- ["5Heady21CategoryListPresenterC", "CategoryListViewProtocol"]
+- ["5Heady21CategoryListPresenterC", "CategoryListWireFrameProtocol"]
+- ["5Heady21CategoryListPresenterC", "deinit"]
+- ["5Heady21CategoryListPresenterC", "didRetrieveCategoryList"]
+- ["5Heady21CategoryListPresenterC", "init"]
+- ["5Heady21CategoryListPresenterC", "interactor"]
+- ["5Heady21CategoryListPresenterC", "onError"]
+- ["5Heady21CategoryListPresenterC", "showCategoryDetail"]
+- ["5Heady21CategoryListPresenterC", "view"]
+- ["5Heady21CategoryListPresenterC", "viewDidLoad"]
+- ["5Heady21CategoryListPresenterC", "wireFrame"]
+- ["5Heady21CategoryListPresenterC", "wireframe"]
+- ["5Heady29CategoryListPresenterProtocolP", ""]
+- ["5Heady29CategoryListPresenterProtocolP", "didRetrieveCategoryList"]
+- ["5Heady29CategoryListPresenterProtocolP", "interactor"]
+- ["5Heady29CategoryListPresenterProtocolP", "onError"]
+- ["5Heady29CategoryListPresenterProtocolP", "showCategoryDetail"]
+- ["5Heady29CategoryListPresenterProtocolP", "view"]
+- ["5Heady29CategoryListPresenterProtocolP", "viewDidLoad"]
+- ["5Heady29CategoryListPresenterProtocolP", "wireFrame"]
+- !private ["5Heady29CategoryListPresenterProtocolP", "wireframe"]
+- !private ["5Heady24CategoryListViewProtocolP", "hideLoading"]
+- !private ["5Heady24CategoryListViewProtocolP", "showCategories"]
+- !private ["5Heady24CategoryListViewProtocolP", "showError"]
+- !private ["5Heady24CategoryListViewProtocolP", "showLoading"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "presentCategoryDetailScreen"]
+depends-nominal:
+- !private "5Heady35CategoryListInteractorInputProtocolP"
+- "5Heady36CategoryListInteractorOutputProtocolP"
+- "5Heady21CategoryListPresenterC"
+- "5Heady29CategoryListPresenterProtocolP"
+- !private "5Heady24CategoryListViewProtocolP"
+- !private "5Heady29CategoryListWireFrameProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4aa757e928f3915e4504cef416db8159"

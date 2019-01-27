@@ -1,0 +1,400 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoryListLocalDataManager"
+provides-nominal:
+- "5Heady28CategoryListLocalDataManagerC"
+provides-member:
+- ["5Heady28CategoryListLocalDataManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Category"
+- "CategoryListLocalDataManager"
+- "CategoryListLocalDataManagerInputProtocol"
+- !private "CoreDataStore"
+- !private "Data"
+- "Int"
+- !private "NSEntityDescription"
+- !private "NSError"
+- !private "NSFetchRequest"
+- !private "NSKeyedArchiver"
+- !private "NSKeyedUnarchiver"
+- !private "NSManagedObject"
+- !private "PersistanceError"
+- "Product"
+- "String"
+- !private "StringLiteralType"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "archivedData"]
+- !private ["s7CVarArgP", "category_id"]
+- !private ["s7CVarArgP", "category_name"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "entity"]
+- !private ["s7CVarArgP", "fetch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "products"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "unarchiveObject"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "value"]
+- !private ["5Heady8CategoryC", "category_id"]
+- !private ["5Heady8CategoryC", "category_name"]
+- !private ["5Heady8CategoryC", "init"]
+- !private ["5Heady8CategoryC", "products"]
+- ["5Heady28CategoryListLocalDataManagerC", "Category"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "CoreDataStore"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "Data"]
+- ["5Heady28CategoryListLocalDataManagerC", "Int"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "NSEntityDescription"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "NSError"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "NSFetchRequest"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "NSKeyedArchiver"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "NSKeyedUnarchiver"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "NSManagedObject"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "PersistanceError"]
+- ["5Heady28CategoryListLocalDataManagerC", "Product"]
+- ["5Heady28CategoryListLocalDataManagerC", "String"]
+- ["5Heady28CategoryListLocalDataManagerC", "deinit"]
+- ["5Heady28CategoryListLocalDataManagerC", "init"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "print"]
+- ["5Heady28CategoryListLocalDataManagerC", "retrieveCategoryList"]
+- ["5Heady28CategoryListLocalDataManagerC", "saveCategory"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "Category"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "CoreDataStore"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "NSEntityDescription"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "NSFetchRequest"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "NSKeyedArchiver"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "NSKeyedUnarchiver"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "NSManagedObject"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "PersistanceError"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", ""]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "print"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", "retrieveCategoryList"]
+- ["5Heady41CategoryListLocalDataManagerInputProtocolP", "saveCategory"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["5Heady13CoreDataStoreC", "managedObjectContext"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "archivedData"]
+- !private ["s28CustomDebugStringConvertibleP", "category_id"]
+- !private ["s28CustomDebugStringConvertibleP", "category_name"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "entity"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "products"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "unarchiveObject"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "archivedData"]
+- !private ["s23CustomStringConvertibleP", "category_id"]
+- !private ["s23CustomStringConvertibleP", "category_name"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "entity"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "products"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "unarchiveObject"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "append"]
+- !private ["SQ", "archivedData"]
+- !private ["SQ", "category_id"]
+- !private ["SQ", "category_name"]
+- !private ["SQ", "couldNotSaveObject"]
+- !private ["SQ", "count"]
+- !private ["SQ", "entity"]
+- !private ["SQ", "fetch"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "managedObjectContextNotFound"]
+- !private ["SQ", "objectNotFound"]
+- !private ["SQ", "products"]
+- !private ["SQ", "save"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "unarchiveObject"]
+- !private ["SQ", "userInfo"]
+- !private ["SQ", "value"]
+- !private ["s5ErrorP", "couldNotSaveObject"]
+- !private ["s5ErrorP", "managedObjectContextNotFound"]
+- !private ["s5ErrorP", "objectNotFound"]
+- !private ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "archivedData"]
+- !private ["SH", "category_id"]
+- !private ["SH", "category_name"]
+- !private ["SH", "couldNotSaveObject"]
+- !private ["SH", "count"]
+- !private ["SH", "entity"]
+- !private ["SH", "fetch"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "managedObjectContextNotFound"]
+- !private ["SH", "objectNotFound"]
+- !private ["SH", "products"]
+- !private ["SH", "save"]
+- !private ["SH", "setValue"]
+- !private ["SH", "unarchiveObject"]
+- !private ["SH", "userInfo"]
+- !private ["SH", "value"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["So7NSCoderC", "archivedData"]
+- !private ["So7NSCoderC", "unarchiveObject"]
+- !private ["So8NSCodingP", "entity"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "entity"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So19NSEntityDescriptionC", "entity"]
+- !private ["So7NSErrorC", "userInfo"]
+- !private ["So17NSFastEnumerationP", "entity"]
+- !private ["So14NSFetchRequestC", "init"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "setValue"]
+- !private ["So20NSFetchRequestResultP", "value"]
+- !private ["So15NSKeyedArchiverC", "archivedData"]
+- !private ["So17NSKeyedUnarchiverC", "unarchiveObject"]
+- !private ["So9NSLockingP", "fetch"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "init"]
+- !private ["So15NSManagedObjectC", "setValue"]
+- !private ["So15NSManagedObjectC", "value"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So8NSObjectC", "archivedData"]
+- !private ["So8NSObjectC", "category_id"]
+- !private ["So8NSObjectC", "category_name"]
+- !private ["So8NSObjectC", "entity"]
+- !private ["So8NSObjectC", "fetch"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "products"]
+- !private ["So8NSObjectC", "save"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "unarchiveObject"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "archivedData"]
+- !private ["So8NSObjectP", "category_id"]
+- !private ["So8NSObjectP", "category_name"]
+- !private ["So8NSObjectP", "entity"]
+- !private ["So8NSObjectP", "fetch"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "products"]
+- !private ["So8NSObjectP", "save"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "unarchiveObject"]
+- !private ["So8NSObjectP", "userInfo"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So24NSPersistentStoreRequestC", "init"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- !private ["5Heady16PersistanceErrorO", "couldNotSaveObject"]
+- !private ["5Heady16PersistanceErrorO", "deinit"]
+- !private ["5Heady16PersistanceErrorO", "managedObjectContextNotFound"]
+- !private ["5Heady16PersistanceErrorO", "objectNotFound"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "archivedData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "category_id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "category_name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "products"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unarchiveObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "5Heady8CategoryC"
+- "5Heady28CategoryListLocalDataManagerC"
+- "5Heady41CategoryListLocalDataManagerInputProtocolP"
+- !private "Sl"
+- !private "SL"
+- !private "5Heady13CoreDataStoreC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So7NSCoderC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- !private "So7NSErrorC"
+- !private "So17NSFastEnumerationP"
+- !private "So14NSFetchRequestC"
+- !private "So20NSFetchRequestResultP"
+- !private "So15NSKeyedArchiverC"
+- !private "So17NSKeyedUnarchiverC"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So24NSPersistentStoreRequestC"
+- !private "So14NSSecureCodingP"
+- !private "5Heady16PersistanceErrorO"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "76738be8dfeda06ccb21fec6955d19d9"

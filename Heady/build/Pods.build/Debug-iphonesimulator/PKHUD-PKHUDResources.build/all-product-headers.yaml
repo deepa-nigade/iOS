@@ -1,0 +1,65 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PKHUD-Swift.h",
+          'external-contents': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PKHUD-umbrella.h",
+          'external-contents': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "PKHUD.h",
+          'external-contents': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/PKHUD/PKHUD/PKHUD.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Pods.build/Debug-iphonesimulator/PKHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/Pods_Heady.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Heady-umbrella.h",
+          'external-contents': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/Pods/Target Support Files/Pods-Heady/Pods-Heady-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Heady-Swift.h",
+          'external-contents': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/Pods_Heady.framework/Headers/Pods_Heady-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/Pods_Heady.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Pods.build/Debug-iphonesimulator/Pods-Heady.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

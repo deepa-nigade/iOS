@@ -1,0 +1,421 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoryListRemoteDataManager"
+provides-nominal:
+- "5Heady29CategoryListRemoteDataManagerC"
+provides-member:
+- ["5Heady29CategoryListRemoteDataManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "APPURLS"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Category"
+- "CategoryListRemoteDataManager"
+- "CategoryListRemoteDataManagerInputProtocol"
+- "CategoryListRemoteDataManagerOutputProtocol"
+- "FloatLiteralType"
+- !private "HTTPURLResponse"
+- "IntegerLiteralType"
+- !private "JSONSerialization"
+- "NSDictionary"
+- "Product"
+- !private "URL"
+- !private "URLSession"
+- "Variant"
+- !private "getArrayIfPresentInJSon"
+- !private "getIntIfPresentInJSon"
+- !private "getStringIfPresentInJSon"
+- !private "print"
+depends-member:
+- !private ["5Heady7APPURLSV", "getCategories"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "category_id"]
+- !private ["s7CVarArgP", "category_name"]
+- !private ["s7CVarArgP", "color"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "products"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "variants"]
+- !private ["5Heady8CategoryC", "category_id"]
+- !private ["5Heady8CategoryC", "category_name"]
+- !private ["5Heady8CategoryC", "init"]
+- !private ["5Heady8CategoryC", "products"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "APPURLS"]
+- ["5Heady29CategoryListRemoteDataManagerC", "Category"]
+- ["5Heady29CategoryListRemoteDataManagerC", "CategoryListRemoteDataManagerOutputProtocol"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "HTTPURLResponse"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "JSONSerialization"]
+- ["5Heady29CategoryListRemoteDataManagerC", "NSDictionary"]
+- ["5Heady29CategoryListRemoteDataManagerC", "Product"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "URL"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "URLSession"]
+- ["5Heady29CategoryListRemoteDataManagerC", "Variant"]
+- ["5Heady29CategoryListRemoteDataManagerC", "deinit"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "getArrayIfPresentInJSon"]
+- ["5Heady29CategoryListRemoteDataManagerC", "getCategoryList"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "getIntIfPresentInJSon"]
+- ["5Heady29CategoryListRemoteDataManagerC", "getProducts"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "getStringIfPresentInJSon"]
+- ["5Heady29CategoryListRemoteDataManagerC", "getVariants"]
+- ["5Heady29CategoryListRemoteDataManagerC", "init"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "print"]
+- ["5Heady29CategoryListRemoteDataManagerC", "remoteRequestHandler"]
+- ["5Heady29CategoryListRemoteDataManagerC", "retrieveCategoryList"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "APPURLS"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "Category"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "JSONSerialization"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "Product"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "URL"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "URLSession"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "Variant"]
+- ["5Heady42CategoryListRemoteDataManagerInputProtocolP", ""]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "getArrayIfPresentInJSon"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "getCategoryList"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "getIntIfPresentInJSon"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "getProducts"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "getStringIfPresentInJSon"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "getVariants"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "print"]
+- ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "remoteRequestHandler"]
+- ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "retrieveCategoryList"]
+- !private ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "onCategoryListRecieved"]
+- !private ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "onError"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "category_id"]
+- !private ["s28CustomDebugStringConvertibleP", "category_name"]
+- !private ["s28CustomDebugStringConvertibleP", "color"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "products"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "variants"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "category_id"]
+- !private ["s23CustomStringConvertibleP", "category_name"]
+- !private ["s23CustomStringConvertibleP", "color"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "products"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "variants"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "category_id"]
+- !private ["SQ", "category_name"]
+- !private ["SQ", "color"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "id"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "mutableLeaves"]
+- !private ["SQ", "name"]
+- !private ["SQ", "products"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "size"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "variants"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "mutableLeaves"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "category_id"]
+- !private ["SH", "category_name"]
+- !private ["SH", "color"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "id"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "name"]
+- !private ["SH", "products"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "size"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "variants"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["So8NSCodingP", "color"]
+- !private ["So8NSCodingP", "id"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "variants"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So8NSObjectC", "category_id"]
+- !private ["So8NSObjectC", "category_name"]
+- !private ["So8NSObjectC", "color"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "id"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "products"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "variants"]
+- !private ["So8NSObjectP", "category_id"]
+- !private ["So8NSObjectP", "category_name"]
+- !private ["So8NSObjectP", "color"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "products"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "size"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "variants"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["s9OptionSetP", "mutableLeaves"]
+- !private ["5Heady7ProductC", "deinit"]
+- !private ["5Heady7ProductC", "id"]
+- !private ["5Heady7ProductC", "init"]
+- !private ["5Heady7ProductC", "name"]
+- !private ["5Heady7ProductC", "variants"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "mutableLeaves"]
+- !private ["So20NSJSONReadingOptionsV", "mutableLeaves"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s10SetAlgebraP", "mutableLeaves"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["5Heady7VariantC", "color"]
+- !private ["5Heady7VariantC", "deinit"]
+- !private ["5Heady7VariantC", "init"]
+- !private ["5Heady7VariantC", "size"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "category_id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "category_name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "color"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "products"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "variants"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "5Heady7APPURLSV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "5Heady8CategoryC"
+- "5Heady29CategoryListRemoteDataManagerC"
+- "5Heady42CategoryListRemoteDataManagerInputProtocolP"
+- !private "5Heady43CategoryListRemoteDataManagerOutputProtocolP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So17NSHTTPURLResponseC"
+- !private "SH"
+- !private "So19NSJSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "5Heady7ProductC"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "5Heady7VariantC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9e6f38d3cbf0fe783747590f044a10c3"

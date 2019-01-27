@@ -1,0 +1,360 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoryListWireFrame"
+provides-nominal:
+- "5Heady21CategoryListWireFrameC"
+provides-member:
+- ["5Heady21CategoryListWireFrameC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "CastingPrecedence"
+- "Category"
+- !private "CategoryListInteractor"
+- !private "CategoryListInteractorInputProtocol"
+- !private "CategoryListInteractorOutputProtocol"
+- !private "CategoryListLocalDataManager"
+- !private "CategoryListLocalDataManagerInputProtocol"
+- !private "CategoryListPresenter"
+- !private "CategoryListPresenterProtocol"
+- !private "CategoryListRemoteDataManager"
+- !private "CategoryListRemoteDataManagerInputProtocol"
+- !private "CategoryListRemoteDataManagerOutputProtocol"
+- !private "CategoryListView"
+- "CategoryListViewProtocol"
+- "CategoryListWireFrame"
+- "CategoryListWireFrameProtocol"
+- !private "StringLiteralType"
+- "UIStoryboard"
+- "UIViewController"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", "children"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "presenter"]
+- !private ["5Heady22CategoryListInteractorC", "deinit"]
+- !private ["5Heady22CategoryListInteractorC", "init"]
+- !private ["5Heady35CategoryListInteractorInputProtocolP", "init"]
+- !private ["5Heady35CategoryListInteractorInputProtocolP", "localDatamanager"]
+- !private ["5Heady35CategoryListInteractorInputProtocolP", "presenter"]
+- !private ["5Heady35CategoryListInteractorInputProtocolP", "remoteDatamanager"]
+- !private ["5Heady36CategoryListInteractorOutputProtocolP", "init"]
+- !private ["5Heady36CategoryListInteractorOutputProtocolP", "interactor"]
+- !private ["5Heady36CategoryListInteractorOutputProtocolP", "view"]
+- !private ["5Heady36CategoryListInteractorOutputProtocolP", "wireFrame"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "deinit"]
+- !private ["5Heady28CategoryListLocalDataManagerC", "init"]
+- !private ["5Heady41CategoryListLocalDataManagerInputProtocolP", "init"]
+- !private ["5Heady21CategoryListPresenterC", "deinit"]
+- !private ["5Heady21CategoryListPresenterC", "init"]
+- !private ["5Heady29CategoryListPresenterProtocolP", "init"]
+- !private ["5Heady29CategoryListPresenterProtocolP", "interactor"]
+- !private ["5Heady29CategoryListPresenterProtocolP", "view"]
+- !private ["5Heady29CategoryListPresenterProtocolP", "wireFrame"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "deinit"]
+- !private ["5Heady29CategoryListRemoteDataManagerC", "init"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "init"]
+- !private ["5Heady42CategoryListRemoteDataManagerInputProtocolP", "remoteRequestHandler"]
+- !private ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "init"]
+- !private ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "localDatamanager"]
+- !private ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "presenter"]
+- !private ["5Heady43CategoryListRemoteDataManagerOutputProtocolP", "remoteDatamanager"]
+- !private ["5Heady16CategoryListViewC", "deinit"]
+- !private ["5Heady16CategoryListViewC", "presenter"]
+- !private ["5Heady24CategoryListViewProtocolP", "presenter"]
+- !private ["5Heady21CategoryListWireFrameC", "Bundle"]
+- ["5Heady21CategoryListWireFrameC", "Category"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListInteractor"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListInteractorInputProtocol"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListInteractorOutputProtocol"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListLocalDataManager"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListLocalDataManagerInputProtocol"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListPresenter"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListPresenterProtocol"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListRemoteDataManager"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListRemoteDataManagerInputProtocol"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListRemoteDataManagerOutputProtocol"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListView"]
+- ["5Heady21CategoryListWireFrameC", "CategoryListViewProtocol"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListWireFrame"]
+- !private ["5Heady21CategoryListWireFrameC", "CategoryListWireFrameProtocol"]
+- ["5Heady21CategoryListWireFrameC", "UIStoryboard"]
+- ["5Heady21CategoryListWireFrameC", "UIViewController"]
+- ["5Heady21CategoryListWireFrameC", "createCategoryListModule"]
+- ["5Heady21CategoryListWireFrameC", "deinit"]
+- ["5Heady21CategoryListWireFrameC", "init"]
+- ["5Heady21CategoryListWireFrameC", "mainStoryboard"]
+- ["5Heady21CategoryListWireFrameC", "presentCategoryDetailScreen"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "Bundle"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "CategoryListInteractor"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "CategoryListLocalDataManager"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "CategoryListPresenter"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "CategoryListRemoteDataManager"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "CategoryListWireFrame"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "UIStoryboard"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "UIViewController"]
+- ["5Heady29CategoryListWireFrameProtocolP", ""]
+- ["5Heady29CategoryListWireFrameProtocolP", "createCategoryListModule"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "init"]
+- !private ["5Heady29CategoryListWireFrameProtocolP", "mainStoryboard"]
+- ["5Heady29CategoryListWireFrameProtocolP", "presentCategoryDetailScreen"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "children"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "presenter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "presenter"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "children"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "main"]
+- !private ["SQ", "presenter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "children"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "main"]
+- !private ["SH", "presenter"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "first"]
+- !private ["So8NSCodingP", "children"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "presenter"]
+- !private ["So26NSExtensionRequestHandlingP", "children"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "presenter"]
+- !private ["So8NSObjectC", "children"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "presenter"]
+- !private ["So8NSObjectP", "children"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "presenter"]
+- !private ["Sk", "first"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "children"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "presenter"]
+- !private ["So18UIContentContainerP", "children"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "presenter"]
+- !private ["So18UIFocusEnvironmentP", "children"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "presenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "children"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "presenter"]
+- !private ["So11UIResponderC", "children"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "presenter"]
+- !private ["So30UIResponderStandardEditActionsP", "children"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "presenter"]
+- !private ["So20UIScrollViewDelegateP", "presenter"]
+- !private ["So16UIStateRestoringP", "children"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "presenter"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So21UITableViewDataSourceP", "presenter"]
+- !private ["So19UITableViewDelegateP", "presenter"]
+- !private ["So18UITraitEnvironmentP", "children"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "presenter"]
+- !private ["So23UIUserActivityRestoringP", "children"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "presenter"]
+- !private ["So16UIViewControllerC", "children"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "presenter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "children"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presenter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "5Heady22CategoryListInteractorC"
+- !private "5Heady35CategoryListInteractorInputProtocolP"
+- !private "5Heady36CategoryListInteractorOutputProtocolP"
+- !private "5Heady28CategoryListLocalDataManagerC"
+- !private "5Heady41CategoryListLocalDataManagerInputProtocolP"
+- !private "5Heady21CategoryListPresenterC"
+- !private "5Heady29CategoryListPresenterProtocolP"
+- !private "5Heady29CategoryListRemoteDataManagerC"
+- !private "5Heady42CategoryListRemoteDataManagerInputProtocolP"
+- !private "5Heady43CategoryListRemoteDataManagerOutputProtocolP"
+- !private "5Heady16CategoryListViewC"
+- !private "5Heady24CategoryListViewProtocolP"
+- "5Heady21CategoryListWireFrameC"
+- "5Heady29CategoryListWireFrameProtocolP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So16UIViewControllerC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/deepapatil/Desktop/Heady_Assignment/iOS/Heady/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d060de64c0cf5220150605a7fa9bd920"
